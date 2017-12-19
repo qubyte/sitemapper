@@ -3,7 +3,7 @@
 A demo cli wrapper around [sitemap][1]. To use, run:
 
 ```bash
-go run main.go --start-url <put a URL to start from here> --jobs <workers>
+docker run qubyte/sitemapper --start-url <put a URL to start from here> --jobs <workers>
 ```
 
 `--start-url` is mandatory, `--jobs` defaults to `1`. `--jobs` is the number of 
